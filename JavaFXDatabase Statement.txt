@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS javafxdatabase;
+CREATE DATABASE javafxdatabase;
+CREATE TABLE people (  
+ID INT NOT NULL AUTO_INCREMENT,  
+Name VARCHAR (20) NOT NULL,
+    PRIMARY KEY(ID)
+); 
+
+INSERT INTO people(Name)
+VALUES ("EROL"), ("ERIN"),("NED"), ("MICHEAL"), ("JEREMY"),("RYAN"),("MITCHELL"),("ROBERTH"),("KEN"),("JOE");
